@@ -16,6 +16,9 @@ h1{
   background-color: #444;
   color: #fff;
 }
+.clockDiv{
+  color: green;
+}
 .question{
   font-size: 20px;
   margin-bottom: 10px;
