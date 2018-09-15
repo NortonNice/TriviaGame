@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz</title>
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <script src="./assets/javascript/app.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Solar System Quiz</h1>
+    <div id="results">
+      <h2>You Scored: Not Yet Attempted</h2>
+    </div>
+  </div>
+  <div class="body">
+    <form name="quiz" onsubmit="return onSubmit()">
+      <div class="question">
+        <h1>Which planet is closest to the Sun?</h1>
+        <input type="radio" name="q1" value="a">a. Mercury<br>
+        <input type="radio" name="q1" value="b">b. Venus<br>
+        <input type="radio" name="q1" value="c">c. Earth<br>
+        <input type="radio" name="q1" value="d">d. Mars<br>
+      </div>
+      <div class="question">
+        <h1>How far is Earth from the Sun?</h1>
+        <input type="radio" name="q2" value="a">a. 25,000 miles<br>
+        <input type="radio" name="q2" value="b">b. 250,000 miles<br>
+        <input type="radio" name="q2" value="c">c. 950,000 miles<br>
+        <input type="radio" name="q2" value="d">d. 93,000,000 miles<br>
+      </div>
+      <div class="question">
+        <h1>Which is the largest planet in the Solar System?</h1>
+        <input type="radio" name="q3" value="a">a. Neptune<br>
+        <input type="radio" name="q3" value="b">b. Jupiter<br>
+        <input type="radio" name="q3" value="c">c. Saturn<br>
+        <input type="radio" name="q3" value="d">d. Uranus<br>
+      </div>
+      <div class="question">
+        <h1>Which planet has the most moons?</h1>
+        <input type="radio" name="q4" value="a">a. Earth<br>
+        <input type="radio" name="q4" value="b">b. Mars<br>
+        <input type="radio" name="q4" value="c">c. Jupiter<br>
+        <input type="radio" name="q4" value="d">d. Saturn<br>
+      </div>
+      <div class="question">
+        <h1>Which planet is the farthest from the Sun?</h1>
+        <input type="radio" name="q5" value="a">a. Neptune<br>
+        <input type="radio" name="q5" value="b">b. Saturn<br>
+        <input type="radio" name="q5" value="c">c. Mercury<br>
+        <input type="radio" name="q5" value="d">d. Earth<br>
+      </div>
+      <button type="submit">Submit Test</button>
+
+  </div>
+</body>
+
+</html>
